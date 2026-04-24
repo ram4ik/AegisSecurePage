@@ -18,8 +18,9 @@ body {
     right: 16px;
     z-index: 9999;
     display: flex;
-    align-items: center;
-    gap: 8px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
     background: rgba(15, 23, 42, 0.72);
     color: #fff;
     padding: 8px 10px;
@@ -27,12 +28,33 @@ body {
     backdrop-filter: blur(6px);
 }
 
-.language-switcher label {
+.language-toggle-btn {
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.language-panel {
+    display: none;
+    align-items: center;
+    gap: 8px;
+}
+
+.language-switcher.open .language-panel {
+    display: flex;
+}
+
+.language-panel label {
     font-size: 0.85rem;
     font-weight: 600;
 }
 
-.language-switcher select {
+.language-panel select {
     border: 1px solid rgba(255, 255, 255, 0.3);
     background: rgba(255, 255, 255, 0.12);
     color: #fff;
@@ -42,7 +64,7 @@ body {
     cursor: pointer;
 }
 
-.language-switcher select option {
+.language-panel select option {
     color: #111827;
 }
 
@@ -502,8 +524,9 @@ footer {
         gap: 6px;
     }
 
-    .language-switcher label,
-    .language-switcher select {
+    .language-toggle-btn,
+    .language-panel label,
+    .language-panel select {
         font-size: 0.75rem;
     }
 

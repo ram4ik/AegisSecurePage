@@ -1,5 +1,6 @@
 const TRANSLATIONS = {
     en: {
+        languageButton: "Select Language",
         languageLabel: "Language",
         pageTitle: "Aegis Secure - Your Complete iOS Security Companion",
         pageDescription: "Protect your digital life with Aegis Secure. Military-grade encryption, Face ID protected vault, real-time threat monitoring, and comprehensive iOS security.",
@@ -16,9 +17,66 @@ const TRANSLATIONS = {
         trustSubtitle: "Perfect for security-conscious users, IT professionals, and anyone who values digital privacy.",
         ctaTitle: "Protect Your Digital Life Today",
         ctaSubtitle: "Join thousands of users who trust Aegis Secure to protect their most valuable digital assets.",
+        feature1Title: "Secure Vault with Face ID",
+        feature1Body: "Store your most sensitive information behind military-grade AES encryption and Face ID protection. Passwords, documents, credit cards - all secured locally on your device.",
+        feature1Item1: "Biometric-protected access",
+        feature1Item2: "Auto-generated strong passwords",
+        feature1Item3: "Secure notes and documents",
+        feature1Item4: "Credit card protection",
+        feature2Title: "Security Dashboard",
+        feature2Body: "Monitor your device's security status in real-time with comprehensive analysis and actionable insights.",
+        feature2Item1: "Real-time security score",
+        feature2Item2: "Device integrity checks",
+        feature2Item3: "Jailbreak detection",
+        feature2Item4: "iOS version analysis",
+        feature3Title: "Network Protection",
+        feature3Body: "Stay safe on any network with advanced Wi-Fi security analysis and threat detection.",
+        feature3Item1: "Wi-Fi security analysis",
+        feature3Item2: "VPN status monitoring",
+        feature3Item3: "Network threat detection",
+        feature3Item4: "Real-time scanning",
+        feature4Title: "Phishing Shield",
+        feature4Body: "AI-powered protection against phishing attacks and malicious websites.",
+        feature4Item1: "AI-powered detection",
+        feature4Item2: "URL safety analysis",
+        feature4Item3: "Suspicious link warnings",
+        feature4Item4: "Email security scanning",
+        feature5Title: "Breach Monitoring",
+        feature5Body: "Get instant alerts if your accounts are compromised in data breaches.",
+        feature5Item1: "Email breach detection",
+        feature5Item2: "Password compromise alerts",
+        feature5Item3: "Data breach notifications",
+        feature5Item4: "Resolution guidance",
+        feature6Title: "Privacy First",
+        feature6Body: "Your data never leaves your device. Zero data collection, complete privacy.",
+        feature6Item1: "Local encryption only",
+        feature6Item2: "No data collection",
+        feature6Item3: "Offline functionality",
+        feature6Item4: "Complete privacy",
+        gallery1Title: "Security Dashboard",
+        gallery1Body: "Monitor your device security in real-time",
+        gallery2Title: "Face ID Protected Vault",
+        gallery2Body: "Store secrets with military-grade encryption",
+        gallery3Title: "Network Protection",
+        gallery3Body: "Analyze Wi-Fi security and detect threats",
+        gallery4Title: "Threat Monitoring",
+        gallery4Body: "Real-time phishing and malware protection",
+        trust1Title: "Military-Grade Security",
+        trust1Body: "AES encryption standard used by governments and enterprises worldwide",
+        trust2Title: "iOS Optimized",
+        trust2Body: "Designed specifically for iOS with native performance and security",
+        trust3Title: "Zero Data Collection",
+        trust3Body: "Your privacy is guaranteed - we don't collect or store any personal data",
+        appInfoLabelPrice: "Price:",
+        appInfoValuePrice: "Free with Premium ($19.99)",
+        appInfoLabelCompatibility: "Compatibility:",
+        appInfoValueCompatibility: "iOS 17.0+ • iPhone, iPad, Mac",
+        appInfoLabelCategory: "Category:",
+        appInfoValueCategory: "Utilities • Security",
         footerText: "&copy; 2024 Aegis Secure. Your complete iOS security companion."
     },
     du: {
+        languageButton: "Kies taal",
         languageLabel: "Taal",
         pageTitle: "Aegis Secure - Je complete iOS-beveiligingspartner",
         pageDescription: "Bescherm je digitale leven met Aegis Secure. Encryptie van militaire kwaliteit, Face ID-beveiligde kluis en realtime dreigingsmonitoring.",
@@ -38,6 +96,7 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure. Je complete iOS-beveiligingspartner."
     },
     da: {
+        languageButton: "Vælg sprog",
         languageLabel: "Sprog",
         pageTitle: "Aegis Secure - Din komplette iOS-sikkerhedspartner",
         pageDescription: "Beskyt dit digitale liv med Aegis Secure. Kryptering i militær kvalitet, Face ID-beskyttet boks og trusselsovervagning i realtid.",
@@ -57,6 +116,7 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure. Din komplette iOS-sikkerhedspartner."
     },
     fr: {
+        languageButton: "Choisir la langue",
         languageLabel: "Langue",
         pageTitle: "Aegis Secure - Votre compagnon complet de securite iOS",
         pageDescription: "Protegez votre vie numerique avec Aegis Secure. Chiffrement de niveau militaire, coffre protege par Face ID et surveillance des menaces en temps reel.",
@@ -76,6 +136,7 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure. Votre compagnon complet de securite iOS."
     },
     de: {
+        languageButton: "Sprache wählen",
         languageLabel: "Sprache",
         pageTitle: "Aegis Secure - Ihr kompletter iOS-Sicherheitsbegleiter",
         pageDescription: "Schutzen Sie Ihr digitales Leben mit Aegis Secure. Verschlusselung in Militargute, Face ID-geschutzter Tresor und Bedrohungsuberwachung in Echtzeit.",
@@ -95,6 +156,7 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure. Ihr kompletter iOS-Sicherheitsbegleiter."
     },
     it: {
+        languageButton: "Seleziona lingua",
         languageLabel: "Lingua",
         pageTitle: "Aegis Secure - Il tuo compagno completo per la sicurezza iOS",
         pageDescription: "Proteggi la tua vita digitale con Aegis Secure. Crittografia di livello militare, vault protetto con Face ID e monitoraggio minacce in tempo reale.",
@@ -114,6 +176,7 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure. Il tuo compagno completo per la sicurezza iOS."
     },
     pl: {
+        languageButton: "Wybierz jezyk",
         languageLabel: "Jezyk",
         pageTitle: "Aegis Secure - Twoj kompletny partner bezpieczenstwa iOS",
         pageDescription: "Chroń swoje zycie cyfrowe z Aegis Secure. Szyfrowanie klasy wojskowej, sejf chroniony Face ID i monitorowanie zagrozen w czasie rzeczywistym.",
@@ -133,6 +196,7 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure. Twoj kompletny partner bezpieczenstwa iOS."
     },
     pt: {
+        languageButton: "Selecionar idioma",
         languageLabel: "Idioma",
         pageTitle: "Aegis Secure - O seu companheiro completo de seguranca iOS",
         pageDescription: "Proteja a sua vida digital com Aegis Secure. Encriptacao de nivel militar, cofre protegido por Face ID e monitorizacao de ameacas em tempo real.",
@@ -152,6 +216,7 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure. O seu companheiro completo de seguranca iOS."
     },
     "pt-br": {
+        languageButton: "Selecionar idioma",
         languageLabel: "Idioma",
         pageTitle: "Aegis Secure - Seu companheiro completo de seguranca iOS",
         pageDescription: "Proteja sua vida digital com Aegis Secure. Criptografia de nivel militar, cofre protegido por Face ID e monitoramento de ameacas em tempo real.",
@@ -171,6 +236,7 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure. Seu companheiro completo de seguranca iOS."
     },
     ru: {
+        languageButton: "Выбрать язык",
         languageLabel: "Язык",
         pageTitle: "Aegis Secure - Ваш полный помощник по безопасности iOS",
         pageDescription: "Защитите свою цифровую жизнь с Aegis Secure. Шифрование военного уровня, хранилище с Face ID и мониторинг угроз в реальном времени.",
@@ -190,6 +256,7 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure. Ваш полный помощник по безопасности iOS."
     },
     sp: {
+        languageButton: "Seleccionar idioma",
         languageLabel: "Idioma",
         pageTitle: "Aegis Secure - Tu companero completo de seguridad iOS",
         pageDescription: "Protege tu vida digital con Aegis Secure. Cifrado de nivel militar, boveda protegida con Face ID y monitoreo de amenazas en tiempo real.",
@@ -209,6 +276,7 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure. Tu companero completo de seguridad iOS."
     },
     ch: {
+        languageButton: "选择语言",
         languageLabel: "语言",
         pageTitle: "Aegis Secure - 您的完整 iOS 安全助手",
         pageDescription: "使用 Aegis Secure 保护您的数字生活。军用级加密、Face ID 保险库和实时威胁监控。",
@@ -228,6 +296,7 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure。您的完整 iOS 安全助手。"
     },
     jp: {
+        languageButton: "言語を選択",
         languageLabel: "言語",
         pageTitle: "Aegis Secure - あなたの総合 iOS セキュリティパートナー",
         pageDescription: "Aegis Secure でデジタルライフを守りましょう。軍用レベル暗号化、Face ID 保護ボルト、リアルタイム脅威監視を提供します。",
@@ -247,6 +316,12 @@ const TRANSLATIONS = {
         footerText: "&copy; 2024 Aegis Secure。あなたの総合 iOS セキュリティパートナー。"
     }
 };
+
+Object.keys(TRANSLATIONS).forEach(code => {
+    if (code !== 'en') {
+        TRANSLATIONS[code] = { ...TRANSLATIONS.en, ...TRANSLATIONS[code] };
+    }
+});
 
 document.addEventListener('DOMContentLoaded', function() {
     const screenshots = document.querySelectorAll('.screenshot');
@@ -313,22 +388,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const languageSwitcher = document.createElement('div');
     languageSwitcher.className = 'language-switcher';
     languageSwitcher.innerHTML = `
-        <label for="language-select" id="language-label">Language</label>
-        <select id="language-select">
-            <option value="en">EN</option>
-            <option value="du">DU</option>
-            <option value="da">DA</option>
-            <option value="fr">FR</option>
-            <option value="de">DE</option>
-            <option value="it">IT</option>
-            <option value="pl">PL</option>
-            <option value="pt">PT</option>
-            <option value="pt-br">PT-BR</option>
-            <option value="ru">RU</option>
-            <option value="sp">SP</option>
-            <option value="ch">CH</option>
-            <option value="jp">JP</option>
-        </select>
+        <button type="button" id="language-toggle" class="language-toggle-btn">Select Language</button>
+        <div class="language-panel">
+            <label for="language-select" id="language-label">Language</label>
+            <select id="language-select">
+                <option value="en">EN</option>
+                <option value="du">DU</option>
+                <option value="da">DA</option>
+                <option value="fr">FR</option>
+                <option value="de">DE</option>
+                <option value="it">IT</option>
+                <option value="pl">PL</option>
+                <option value="pt">PT</option>
+                <option value="pt-br">PT-BR</option>
+                <option value="ru">RU</option>
+                <option value="sp">SP</option>
+                <option value="ch">CH</option>
+                <option value="jp">JP</option>
+            </select>
+        </div>
     `;
     document.body.appendChild(languageSwitcher);
 
@@ -346,6 +424,62 @@ document.addEventListener('DOMContentLoaded', function() {
         { selector: '.trust .trust-content > p', key: 'trustSubtitle' },
         { selector: '.final-cta h2', key: 'ctaTitle' },
         { selector: '.final-cta .cta-content > p', key: 'ctaSubtitle' },
+        { selector: '.features-grid .feature-card:nth-child(1) h3', key: 'feature1Title' },
+        { selector: '.features-grid .feature-card:nth-child(1) p', key: 'feature1Body' },
+        { selector: '.features-grid .feature-card:nth-child(1) li:nth-child(1)', key: 'feature1Item1' },
+        { selector: '.features-grid .feature-card:nth-child(1) li:nth-child(2)', key: 'feature1Item2' },
+        { selector: '.features-grid .feature-card:nth-child(1) li:nth-child(3)', key: 'feature1Item3' },
+        { selector: '.features-grid .feature-card:nth-child(1) li:nth-child(4)', key: 'feature1Item4' },
+        { selector: '.features-grid .feature-card:nth-child(2) h3', key: 'feature2Title' },
+        { selector: '.features-grid .feature-card:nth-child(2) p', key: 'feature2Body' },
+        { selector: '.features-grid .feature-card:nth-child(2) li:nth-child(1)', key: 'feature2Item1' },
+        { selector: '.features-grid .feature-card:nth-child(2) li:nth-child(2)', key: 'feature2Item2' },
+        { selector: '.features-grid .feature-card:nth-child(2) li:nth-child(3)', key: 'feature2Item3' },
+        { selector: '.features-grid .feature-card:nth-child(2) li:nth-child(4)', key: 'feature2Item4' },
+        { selector: '.features-grid .feature-card:nth-child(3) h3', key: 'feature3Title' },
+        { selector: '.features-grid .feature-card:nth-child(3) p', key: 'feature3Body' },
+        { selector: '.features-grid .feature-card:nth-child(3) li:nth-child(1)', key: 'feature3Item1' },
+        { selector: '.features-grid .feature-card:nth-child(3) li:nth-child(2)', key: 'feature3Item2' },
+        { selector: '.features-grid .feature-card:nth-child(3) li:nth-child(3)', key: 'feature3Item3' },
+        { selector: '.features-grid .feature-card:nth-child(3) li:nth-child(4)', key: 'feature3Item4' },
+        { selector: '.features-grid .feature-card:nth-child(4) h3', key: 'feature4Title' },
+        { selector: '.features-grid .feature-card:nth-child(4) p', key: 'feature4Body' },
+        { selector: '.features-grid .feature-card:nth-child(4) li:nth-child(1)', key: 'feature4Item1' },
+        { selector: '.features-grid .feature-card:nth-child(4) li:nth-child(2)', key: 'feature4Item2' },
+        { selector: '.features-grid .feature-card:nth-child(4) li:nth-child(3)', key: 'feature4Item3' },
+        { selector: '.features-grid .feature-card:nth-child(4) li:nth-child(4)', key: 'feature4Item4' },
+        { selector: '.features-grid .feature-card:nth-child(5) h3', key: 'feature5Title' },
+        { selector: '.features-grid .feature-card:nth-child(5) p', key: 'feature5Body' },
+        { selector: '.features-grid .feature-card:nth-child(5) li:nth-child(1)', key: 'feature5Item1' },
+        { selector: '.features-grid .feature-card:nth-child(5) li:nth-child(2)', key: 'feature5Item2' },
+        { selector: '.features-grid .feature-card:nth-child(5) li:nth-child(3)', key: 'feature5Item3' },
+        { selector: '.features-grid .feature-card:nth-child(5) li:nth-child(4)', key: 'feature5Item4' },
+        { selector: '.features-grid .feature-card:nth-child(6) h3', key: 'feature6Title' },
+        { selector: '.features-grid .feature-card:nth-child(6) p', key: 'feature6Body' },
+        { selector: '.features-grid .feature-card:nth-child(6) li:nth-child(1)', key: 'feature6Item1' },
+        { selector: '.features-grid .feature-card:nth-child(6) li:nth-child(2)', key: 'feature6Item2' },
+        { selector: '.features-grid .feature-card:nth-child(6) li:nth-child(3)', key: 'feature6Item3' },
+        { selector: '.features-grid .feature-card:nth-child(6) li:nth-child(4)', key: 'feature6Item4' },
+        { selector: '.gallery-grid .gallery-item:nth-child(1) h4', key: 'gallery1Title' },
+        { selector: '.gallery-grid .gallery-item:nth-child(1) p', key: 'gallery1Body' },
+        { selector: '.gallery-grid .gallery-item:nth-child(2) h4', key: 'gallery2Title' },
+        { selector: '.gallery-grid .gallery-item:nth-child(2) p', key: 'gallery2Body' },
+        { selector: '.gallery-grid .gallery-item:nth-child(3) h4', key: 'gallery3Title' },
+        { selector: '.gallery-grid .gallery-item:nth-child(3) p', key: 'gallery3Body' },
+        { selector: '.gallery-grid .gallery-item:nth-child(4) h4', key: 'gallery4Title' },
+        { selector: '.gallery-grid .gallery-item:nth-child(4) p', key: 'gallery4Body' },
+        { selector: '.trust-features .trust-item:nth-child(1) h4', key: 'trust1Title' },
+        { selector: '.trust-features .trust-item:nth-child(1) p', key: 'trust1Body' },
+        { selector: '.trust-features .trust-item:nth-child(2) h4', key: 'trust2Title' },
+        { selector: '.trust-features .trust-item:nth-child(2) p', key: 'trust2Body' },
+        { selector: '.trust-features .trust-item:nth-child(3) h4', key: 'trust3Title' },
+        { selector: '.trust-features .trust-item:nth-child(3) p', key: 'trust3Body' },
+        { selector: '.app-info .info-item:nth-child(1) .label', key: 'appInfoLabelPrice' },
+        { selector: '.app-info .info-item:nth-child(1) .value', key: 'appInfoValuePrice' },
+        { selector: '.app-info .info-item:nth-child(2) .label', key: 'appInfoLabelCompatibility' },
+        { selector: '.app-info .info-item:nth-child(2) .value', key: 'appInfoValueCompatibility' },
+        { selector: '.app-info .info-item:nth-child(3) .label', key: 'appInfoLabelCategory' },
+        { selector: '.app-info .info-item:nth-child(3) .value', key: 'appInfoValueCategory' },
         { selector: 'footer p', key: 'footerText', html: true }
     ];
 
@@ -359,6 +493,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const descriptionMeta = document.querySelector('meta[name="description"]');
         if (descriptionMeta) {
             descriptionMeta.setAttribute('content', dictionary.pageDescription);
+        }
+
+        const languageButton = document.querySelector('#language-toggle');
+        if (languageButton) {
+            languageButton.textContent = dictionary.languageButton;
         }
 
         const languageLabel = document.querySelector('#language-label');
@@ -382,11 +521,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const languageSelect = document.getElementById('language-select');
+    const languageToggle = document.getElementById('language-toggle');
     const savedLanguage = localStorage.getItem('aegis-language') || 'en';
     languageSelect.value = TRANSLATIONS[savedLanguage] ? savedLanguage : 'en';
     applyTranslations(languageSelect.value);
 
+    languageToggle.addEventListener('click', function() {
+        languageSwitcher.classList.toggle('open');
+    });
+
     languageSelect.addEventListener('change', function(event) {
         applyTranslations(event.target.value);
+        languageSwitcher.classList.remove('open');
     });
 });
